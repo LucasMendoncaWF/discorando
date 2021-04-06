@@ -27,6 +27,24 @@ export class AppComponent {
 
   participantes = [
     {
+      title: 'WFX',
+      personagem: 'Márcio Pereira',
+      url: 'www.youtube.com/channel/UCV16n6udG9hUiXz4HRj_SuA',
+      img: '/assets/avatars/wfx.png'
+    },
+    {
+      title: 'Akkai',
+      personagem: 'Edson Pereira',
+      url: 'www.twitch.tv/akkaiverso',
+      img: '/assets/avatars/akkai.png'
+    },
+    {
+      title: 'Fred',
+      personagem: 'Fernando Fernandes',
+      url: 'www.twitch.tv/fredfp',
+      img: '/assets/avatars/fred.png'
+    },
+    {
       title: 'Muralhakun',
       personagem: 'Rafael Rocha',
       url: 'www.twitch.tv/muralhakun',
@@ -49,18 +67,6 @@ export class AppComponent {
       personagem: 'Fausto Ferreira',
       url: 'www.twitch.tv/falarafaa',
       img: '/assets/avatars/falarafaa.png'
-    },
-    {
-      title: 'Akkai',
-      personagem: 'Carlos Barros',
-      url: 'www.twitch.tv/akkaiverso',
-      img: '/assets/avatars/akkai.png'
-    },
-    {
-      title: 'Fred',
-      personagem: 'Fernando Fernandes',
-      url: 'www.twitch.tv/fredfp',
-      img: '/assets/avatars/fred.png'
     },
     {
       title: 'Dx',
@@ -93,10 +99,10 @@ export class AppComponent {
       img: '/assets/avatars/iriela.png'
     },
     {
-      title: 'JucBox',
-      personagem: 'Benjamin Andrade',
-      url: 'www.twitch.tv/jucbox',
-      img: '/assets/avatars/jucbox.png'
+      title: 'GGBarros_',
+      personagem: 'Jasmin Andrade',
+      url: 'https://www.twitch.tv/ggbarros_',
+      img: '/assets/avatars/ggbarros.png'
     },
     {
       title: 'Lucsfdf',
@@ -129,22 +135,16 @@ export class AppComponent {
       img: '/assets/avatars/webeijo.png'
     },
     {
-      title: 'WFX',
-      personagem: 'Márcio Pereira',
-      url: 'www.twitch.tv/wfx__',
-      img: '/assets/avatars/wfx.png'
-    },
-    {
       title: 'Baixinha',
       personagem: 'Maria Gonçalves',
       url: 'www.twitch.tv/Baixinha',
       img: '/assets/avatars/baixinha.png'
     },
     {
-      title: 'CaioBalbino',
+      title: 'RickCintra',
       personagem: 'Felipe Gomes/Hacker',
-      url: 'www.twitter.com/caiobalbino',
-      img: '/assets/avatars/caio.jpg'
+      url: 'https://www.twitch.tv/rickcintra',
+      img: '/assets/avatars/rick.png'
     },
     {
       title: 'DeivaoTV',
@@ -176,5 +176,25 @@ export class AppComponent {
       url: 'www.twitch.tv/professorgilbertos',
       img: '/assets/avatars/profgil.jpg'
     },
+  ];
+
+  videos = [
+    {
+      title: 'Trailer',
+      videoId: 0,
+      url: 'https://www.youtube.com/embed/JM5CHJNewYM',
+    },
+    
+    {
+      title: 'Ep 1',
+      videoId: 0,
+      url: 'https://www.youtube.com/embed/JM5CHJNewYM',
+    },
+    
+    {
+      title: 'Ep 2',
+      videoId: 0,
+      url: 'https://www.youtube.com/embed/JM5CHJNewYM',
+    }
   ];
 }

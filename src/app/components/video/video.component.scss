@@ -1,0 +1,31 @@
+@import '../../../assets/utils.scss';
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+:host {
+  width: calc(25% - 40px);
+  margin: 20px;
+}
+
+.video-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: $green;
+  font-family: $font;
+  padding: 15px;
+  color: white;
+  font-size: 22px;
+  border-bottom-right-radius: 10px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+}
+
+.video {
+  position: relative;
+  height: 300px;
+}

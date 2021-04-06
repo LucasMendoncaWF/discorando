@@ -4,15 +4,21 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ParticipantesComponent } from './components/participantes/participantes.component';
 import { ApoiadoresComponent } from './components/apoiadores/apoiadores.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { VideoComponent } from './components/video/video.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ParticipantesComponent,
-    ApoiadoresComponent
+    ApoiadoresComponent,
+    HeaderComponent,
+    FooterComponent,
+    VideoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

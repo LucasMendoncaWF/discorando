@@ -1,0 +1,158 @@
+@import '../../../assets/utils.scss';
+
+.offset {
+  height: 130px;
+}
+
+.header {
+  background-color: $orange;
+  width: 100%;
+  position: fixed;
+  z-index: 9998;
+
+  &::after {
+    content: '';
+    background-color: white;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: 10px;
+    left: 0
+  }
+}
+
+.logo {
+  width: 100px;
+  margin: 15px 0;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+.links {
+  float: right;
+  margin-top: 50px;
+  margin-right: 20px;
+
+  a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: $font;
+    font-size: 22px;
+    margin: 0 12px;
+  }
+}
+
+.dekstop-link {
+  &:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: top left;
+
+    transition: transform 0.3s;
+  }
+
+  &:after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      right: 0;
+      width : 100%;
+      height: 1px;
+      background-color: white;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+
+      transition: transform 0.3s;
+  }
+
+  &:hover {
+      &:before {
+          transform: scaleX(1);
+      }
+
+      &:after {
+          transform: scaleX(1);
+      }
+  }
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 9999;
+  
+  .btn {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    
+    
+    .bar {
+      width: 30px;
+      height: 5px;
+      background: white;
+      margin-bottom: 5px;
+    }
+    .bar:last-child {margin-bottom: 0px;}
+    
+  }
+  
+  nav {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border: 2px solid $green;
+    opacity: 1;
+    transform: scale(1);
+    animation: menuShow 0.4s;
+    
+    a {
+      font-family: 'Open Sans'; 
+      color: #222;
+      padding: 10px 20px;
+      display: block;
+      border-bottom: 1px solid #ddd;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li:last-child a {
+      border-bottom: 0px;
+    }
+    a:hover {color: whitesmoke; background: $green;}
+  }
+}
+
+@keyframes menuShow {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menu {
+    display: inline-block;
+  }
+
+  .links {
+    display: none;
+  }
+}

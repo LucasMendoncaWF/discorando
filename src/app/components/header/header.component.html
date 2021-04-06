@@ -1,0 +1,24 @@
+<div class="header">
+  <img class="logo" src="/assets/logos/logo.jpg"/>
+
+  <div class="menu">
+  
+    <div class="btn" (click)="toggleShow()">
+      <div class="bar"></div>
+       <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    
+    <nav id="nav" *ngIf="showMenu">
+      <ul>
+        <li><a *ngFor="let link of links" [target]="link.target" [href]="link.url">{{link.title}}</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+
+  <div class="links">
+    <a class="dekstop-link" *ngFor="let link of links" [target]="link.target" [href]="link.url" >{{link.title}}</a>
+  </div>
+</div>
+<div class="offset"></div>

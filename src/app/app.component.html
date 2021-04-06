@@ -1,22 +1,29 @@
 <section #app>
-  <a class="ytlogo" target="_blank" href="https://www.youtube.com/wfxcanal">
-  </a>
-  <div class="title">Discordando <br/>
-    <span>- créditos -</span>
-  </div>
+  <app-header></app-header>
   <div class="content">
-    <div class="apoiadores">  
-      <div class="title-box">Apoiadores</div>
+    <div class="apoiadores area">  
+      <div class="anchor" id="apoiadoresArea"></div>
+      <div class="title-box" >Apoiadores</div>
       <div class="box">
         <app-apoiadores *ngFor="let apoiador of apoiadores" [item]="apoiador"></app-apoiadores>
       </div>
     </div>
-    <div class="participantes">
+    <div class="videos area">
+      <div class="anchor" id="epsArea"></div>
+      <div class="title-box">Episódios</div>
+      <div class="box videos-box">
+        <app-video *ngFor="let video of videos" [videoUrl]="video.url" [title]="video.title"></app-video>
+      </div>
+    </div>
+    <div class="participantes area" >
+      <div class="anchor" id="participantesArea"></div>
       <div class="title-box">Participantes</div>
       <div class="box">
           <app-participantes *ngFor="let participante of participantes" [item]="participante"> </app-participantes>
       </div>
     </div>
   </div>
+  <iframe src='https://www.sociablekit.com/app/embed/57334' frameborder='0' width='100%' height='400'></iframe>
+  <app-footer></app-footer>
 </section>
 
