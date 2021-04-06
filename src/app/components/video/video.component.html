@@ -1,5 +1,10 @@
 <div class="video">
-  <div class="video-title">{{ title }}</div>
+  <a 
+    target="_blank"
+    [href]="videoUrl"
+    class="video-title">
+    {{ title }}
+  </a>
   <iframe
     [src]="safeURL" 
     title="YouTube video player" 
