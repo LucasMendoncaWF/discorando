@@ -186,15 +186,9 @@ export class AppComponent {
     },
     
     {
-      title: 'Ep 1',
+      title: 'Episódio 1',
       videoId: 0,
       url: 'https://www.youtube.com/embed/JM5CHJNewYM',
     },
-    
-    {
-      title: 'Ep 2',
-      videoId: 0,
-      url: 'https://www.youtube.com/embed/JM5CHJNewYM',
-    }
   ];
 }
