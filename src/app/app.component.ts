@@ -33,10 +33,10 @@ export class AppComponent {
       img: '/assets/avatars/wfx.png'
     },
     {
-      title: 'Akkai',
+      title: 'Lucsfdf',
       personagem: 'Edson Pereira',
-      url: 'www.twitch.tv/akkaiverso',
-      img: '/assets/avatars/akkai.png'
+      url: 'www.twitch.tv/lucsfdf',
+      img: '/assets/avatars/lucs.png'
     },
     {
       title: 'Fred',
@@ -49,6 +49,13 @@ export class AppComponent {
       personagem: 'Rafael Rocha',
       url: 'www.twitch.tv/muralhakun',
       img: '/assets/avatars/mk.png'
+    },
+    
+    {
+      title: 'Akkai',
+      personagem: 'Adam Martin',
+      url: 'www.twitch.tv/akkaiverso',
+      img: '/assets/avatars/akkai.png'
     },
     {
       title: 'Boysleep',
@@ -69,7 +76,7 @@ export class AppComponent {
       img: '/assets/avatars/falarafaa.png'
     },
     {
-      title: 'Dx',
+      title: 'DX',
       personagem: 'Valderlei Pereira',
       url: 'www.twitch.tv/dx___',
       img: '/assets/avatars/dx.png'
@@ -99,16 +106,10 @@ export class AppComponent {
       img: '/assets/avatars/iriela.png'
     },
     {
-      title: 'GGBarros_',
+      title: 'Geo',
       personagem: 'Jasmin Andrade',
       url: 'https://www.twitch.tv/ggbarros_',
       img: '/assets/avatars/ggbarros.png'
-    },
-    {
-      title: 'Lucsfdf',
-      personagem: 'Adam Martin',
-      url: 'www.twitch.tv/lucsfdf',
-      img: '/assets/avatars/lucs.png'
     },
     {
       title: 'Muguerso',
@@ -118,7 +119,7 @@ export class AppComponent {
     },
     {
       title: 'NerdVelhoNerd',
-      personagem: 'Eduardo karate',
+      personagem: 'Eduardo Karate',
       url: 'www.twitch.tv/nerdvelhonerd',
       img: '/assets/avatars/nerdvelho.png'
     },
@@ -147,7 +148,7 @@ export class AppComponent {
       img: '/assets/avatars/rick.png'
     },
     {
-      title: 'DeivaoTV',
+      title: 'Deivao',
       personagem: 'Guilherme Oliveira',
       url: 'www.twitch.tv/deivaotv',
       img: '/assets/avatars/deivao.png'
@@ -181,12 +182,6 @@ export class AppComponent {
   videos = [
     {
       title: 'Trailer',
-      videoId: 0,
-      url: 'https://www.youtube.com/embed/JM5CHJNewYM',
-    },
-    
-    {
-      title: 'Episódio 1',
       videoId: 0,
       url: 'https://www.youtube.com/embed/JM5CHJNewYM',
     },
