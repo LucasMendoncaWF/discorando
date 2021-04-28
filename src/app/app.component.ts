@@ -9,19 +9,9 @@ export class AppComponent {
   title = 'discordando';
   apoiadores = [
     {
-      url: 'www.apoiado.com',
-      nome: 'Apoiador Exemplo 1',
-      img: '/assets/logos/apoiador 1.png',
-    },
-    {
-      url: 'www.apoiado.com',
-      nome: 'Apoiador Exemplo 2',
-      img: '/assets/logos/apoiador 2.png',
-    },
-    {
-      url: 'www.apoiado.com',
-      nome: 'Apoiador Exemplo 3',
-      img: '/assets/logos/apoiador 3.png',
+      url: 'www.youtube.com/channel/UCYZPYxe2kJeM4ZpYEU9X-5g',
+      nome: 'Canal Dois Planos',
+      img: '/assets/logos/doisplanos.jpg',
     },
   ];
 
