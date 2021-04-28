@@ -23,7 +23,11 @@
       </div>
     </div>
   </div>
-  <iframe src='https://www.sociablekit.com/app/embed/57334' frameborder='0' width='100%' height='500px'></iframe>
+  <span class="socials">
+    <a [href]="social.url" [target]="social.target" *ngFor="let social of socials">
+      <div class="social"  [style.background-image]="'url(' + social.icon + ')'"></div>
+    </a>
+  </span>
   <app-footer></app-footer>
 </section>
 

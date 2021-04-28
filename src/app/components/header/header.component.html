@@ -11,14 +11,18 @@
     
     <nav id="nav" *ngIf="showMenu">
       <ul>
-        <li><a *ngFor="let link of links" [target]="link.target" [href]="link.url">{{link.title}}</a></li>
+        <li><a *ngFor="let link of links" [target]="link.target" [href]="link.url">
+          <span>{{link.title}}</span>
+        </a></li>
       </ul>
     </nav>
     
   </div>
 
   <div class="links">
-    <a class="dekstop-link" *ngFor="let link of links" [target]="link.target" [href]="link.url" >{{link.title}}</a>
+    <a class="dekstop-link" *ngFor="let link of links" [target]="link.target" [href]="link.url" >
+      <span>{{link.title}}</span>
+    </a>
   </div>
 </div>
 <div class="offset"></div>

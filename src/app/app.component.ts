@@ -176,4 +176,10 @@ export class AppComponent {
       url: 'https://www.youtube.com/embed/JM5CHJNewYM',
     },
   ];
+
+  socials = [
+    {title: 'Discord', url: 'https://discord.gg/vfh6xYAz6k', target: '_blank', icon: '/assets/discord.png'},
+    {title: 'Youtube', url: 'https://www.youtube.com/channel/UCV16n6udG9hUiXz4HRj_SuA', target: '_blank', icon: '/assets/Youtube_logo.png'},
+    {title: 'Twitter', url: 'https://twitter.com/DiscordandoShow', target: '_blank', icon: '/assets/twitter.png'}
+  ];
 }
