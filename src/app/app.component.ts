@@ -13,6 +13,11 @@ export class AppComponent {
       nome: 'Canal Dois Planos',
       img: '/assets/logos/doisplanos.jpg',
     },
+    {
+      url: 'www.roxxenergy.com.br/',
+      nome: 'Roxx Energy',
+      img: '/assets/logos/logo-roxx.jpg'
+    },
   ];
 
   participantes = [
@@ -39,13 +44,6 @@ export class AppComponent {
       personagem: 'Rafael Rocha',
       url: 'www.twitch.tv/muralhakun',
       img: '/assets/avatars/mk.png'
-    },
-    
-    {
-      title: 'Akkai',
-      personagem: 'Adam Martin',
-      url: 'www.twitch.tv/akkaiverso',
-      img: '/assets/avatars/akkai.png'
     },
     {
       title: 'Boysleep',
@@ -139,7 +137,7 @@ export class AppComponent {
     },
     {
       title: 'Deivao',
-      personagem: 'Guilherme Oliveira',
+      personagem: 'Adam Martin',
       url: 'www.twitch.tv/deivaotv',
       img: '/assets/avatars/deivao.png'
     },
@@ -178,7 +176,7 @@ export class AppComponent {
   ];
 
   socials = [
-    {title: 'Discord', url: 'https://discord.gg/vfh6xYAz6k', target: '_blank', icon: '/assets/discord.png'},
+    {title: 'Discord', url: 'https://discord.gg/6j9Fg8C', target: '_blank', icon: '/assets/discord.png'},
     {title: 'Youtube', url: 'https://www.youtube.com/channel/UCV16n6udG9hUiXz4HRj_SuA', target: '_blank', icon: '/assets/Youtube_logo.png'},
     {title: 'Twitter', url: 'https://twitter.com/DiscordandoShow', target: '_blank', icon: '/assets/twitter.png'}
   ];

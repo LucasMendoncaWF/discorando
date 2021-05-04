@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
   showMenu = false;
 
   links = [
-    {title: 'Apoiadores', url: '#apoiadoresArea', target: '_self'},
+    {title: 'Parceiros', url: '#apoiadoresArea', target: '_self'},
     {title: 'Episódios', url: '#epsArea', target: '_self'},
     {title: 'Participantes', url: '#participantesArea', target: '_self'},
     {title: 'Discord', url: 'https://discord.gg/vfh6xYAz6k', target: '_blank'},
